@@ -1,4 +1,4 @@
-# Npgsql - the .NET data provider for PostgreSQL
+# .NET Driver for Opengauss
 
 [![stable](https://img.shields.io/nuget/v/Npgsql.svg?label=stable)](https://www.nuget.org/packages/Npgsql/)
 [![unstable](https://img.shields.io/myget/npgsql-unstable/v/npgsql.svg?label=unstable)](https://www.myget.org/feed/npgsql-unstable/package/nuget/Npgsql)
@@ -6,8 +6,8 @@
 [![build](https://img.shields.io/github/workflow/status/npgsql/npgsql/Build)](https://github.com/npgsql/npgsql/actions)
 [![gitter](https://img.shields.io/badge/gitter-join%20chat-brightgreen.svg)](https://gitter.im/npgsql/npgsql)
 
-## What is Npgsql?
 
-Npgsql is a .NET data provider for PostgreSQL. It allows you to connect and interact with PostgreSQL server using .NET.
-
-For any additional information, please visit the Npgsql website at [https://www.npgsql.org](https://www.npgsql.org).#
+Connect to opengauss database using this .NET Driver.  
+Create application and put Opengauss class dll into your project. 
+For windows machine give the namespace and create the object and start use of methods inside it. 
+For linux put the dll into you application. Give the namespace and create the object and start use of methods. also give path of dll in .csproj file.
