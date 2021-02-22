@@ -1,0 +1,13 @@
+﻿<Project>
+  <Import Project="../Directory.Build.props" />
+
+  <!-- Build configuration -->
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GitHubActionsTestLogger" />
+  </ItemGroup>
+</Project>
